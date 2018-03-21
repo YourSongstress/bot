@@ -3,7 +3,7 @@
   "name": "bbot",
   "version": "1.0.0",
   "description": "",
-  "main": "bot2.js",
+  "main": "bot.js",
   "scripts": {
     "start": "node bot2.js"
   },
