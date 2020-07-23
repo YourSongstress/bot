@@ -63,7 +63,7 @@ bot.on("message", (msg) => {
       setTimeout(function() {
     gRandom();
     let quote = animeQuotes.randomQuote();
-    bot.guilds.get('guild id here').channels.get('channel id here').send(`${quote.quote} - ${quote.name}, ${quote.anime}.`);
+    bot.guilds.get('316787148038733834').channels.get('735664868757078056').send(`${quote.quote} - ${quote.name}, ${quote.anime}.`);
     if (state === 1 ) {
       loop();
     }
