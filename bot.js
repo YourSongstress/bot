@@ -76,7 +76,7 @@ bot.on("message", (msg) => {
     state = 0;
   }
 
-  if (command === "restart" && msg.author.id === "your id here") {
+  if (command === "restart" && msg.author.id === "316149143078961152") {
     bot.destroy();
     setTimeout(function () {
       bot.login(process.env.token);
